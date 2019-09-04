@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{DB19A329-1957-7152-E9D1-724F953FB571}</ProjectGuid>
+    <ProjectGuid>{0CB5603D-DDEF-F656-1CD1-34EFF9AE4CF6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,34 +61,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Scripts\BFS_Pathfinding.cs" />
-    <Compile Include="Assets\Scenes\Scripts\circlePacking.cs" />
-    <Compile Include="Assets\Scenes\Scripts\CreateVectors.cs" />
-    <Compile Include="Assets\Scenes\Scripts\creatingFieldofPointsFromFile.cs" />
-    <Compile Include="Assets\Scenes\Scripts\displayVertices.cs" />
-    <Compile Include="Assets\Scenes\Scripts\DotFieldCreator.cs" />
-    <Compile Include="Assets\Scenes\Scripts\grid.cs" />
-    <Compile Include="Assets\Scenes\Scripts\HandleTextFile.cs" />
-    <Compile Include="Assets\Scenes\Scripts\NodeNetworkCreator.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
     <Compile Include="Assets\Scripts\FieldOfView.cs" />
-    <None Include="Assets\Resources\test.txt" />
-    <None Include="Assets\Scenes\NewUnlitShader.shader" />
-    <None Include="Assets\Resources\test_data.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/philipp.s/Documents/dev/github/xyzintelligence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/philipp.s/Documents/dev/github/field-of-view_unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/philipp.s/Documents/dev/github/xyzintelligence/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/philipp.s/Documents/dev/github/field-of-view_unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/philipp.s/Documents/dev/github/xyzintelligence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/philipp.s/Documents/dev/github/field-of-view_unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/philipp.s/Documents/dev/github/xyzintelligence/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/philipp.s/Documents/dev/github/field-of-view_unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/philipp.s/Documents/dev/github/xyzintelligence/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/philipp.s/Documents/dev/github/field-of-view_unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,13 +280,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.6f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/philipp.s/Documents/dev/github/xyzintelligence/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/philipp.s/Documents/dev/github/field-of-view_unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/philipp.s/Documents/dev/github/xyzintelligence/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/philipp.s/Documents/dev/github/field-of-view_unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/philipp.s/Documents/dev/github/xyzintelligence/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/philipp.s/Documents/dev/github/field-of-view_unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
